@@ -1,0 +1,13 @@
+name: BedrockBoxGame
+version: 1.0.0
+main: com.inkarius.bedrockbox.Main
+api-version: '1.21'
+commands:
+  bb:
+    description: Настройка арены Bedrock Box
+    permission: bedrockbox.admin
+    usage: /bb <команда>
+permissions:
+  bedrockbox.admin:
+    description: Разрешает настройку Bedrock Box
+    default: op
